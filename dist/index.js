@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const p1_fonctions_pures_1 = require("./p1-fonctions-pures");
+const p2_immutabilite_1 = require("./p2-immutabilite");
+const p3_fonctions_ordre_sup_1 = require("./p3-fonctions-ordre-sup");
+const p4_map_filter_reduce_1 = require("./p4-map-filter-reduce");
+const p5_fonctions_liste_1 = require("./p5-fonctions-liste");
+const bonus_1 = require("./bonus");
+(0, p1_fonctions_pures_1.executerP1)();
+(0, p2_immutabilite_1.executerP2)();
+(0, p3_fonctions_ordre_sup_1.executerP3)();
+(0, p4_map_filter_reduce_1.executerP4)();
+(0, p5_fonctions_liste_1.executerP5)();
+(0, bonus_1.executerBonus)();
